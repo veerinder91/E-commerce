@@ -1,0 +1,844 @@
+
+header
+{
+    position: relative;
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 10px;
+    background: #FFF;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.2);
+    display: flex;
+    justify-content: space-evenly;
+}
+.icons{
+    margin-top: 20px;
+   
+}
+.icons i{
+    color: darkgreen;
+    font-size: 14px;
+    padding: 0px 20px;
+}
+
+.clear
+{
+    clear: both;
+}
+nav ul
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li
+{
+    list-style: none;
+}
+nav ul li a
+{
+    display: block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #262626;
+}
+nav ul li a.active,
+nav ul li a:hover
+{
+    background: #069370;
+    color: #fff;
+    transition: 0.5s;
+}
+.hero{
+   background-color: whitesmoke;
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.banner-content h1{
+    margin-top: 200px;
+    font-size: 60px;
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: 300;
+    line-height: 1.2;
+}
+.shop-button{
+    padding: 15px 35px;
+    font-size: 15px;
+    color: white;
+    border:none;
+    background-color: black;
+}
+.shop-button a{
+    text-decoration: none;
+    color: white;
+}
+ .company-pro{
+    padding: 100px;
+}
+.Services{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-evenly;
+}
+.Services div{
+    margin: 50px;
+
+}
+.Services div i{
+    color: darkgreen;
+    font-size: 20px;
+}
+.Services div h3{
+    font-size: 25px;
+    font-weight: 400;
+    color: darkblue;
+}
+.Services div p{
+    font-size: 20;
+}
+
+.mob-pro{
+    padding: 100px;
+} 
+.mob-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.moblies{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+} 
+.mob-heading{
+    font-size: 30px;
+}
+.mob-img{
+
+}
+.hover-button{
+    text-align: center;
+    font-size: 20px;
+    padding: 15px 102px;
+    color: whitesmoke;
+    background-color: darkgreen;
+    
+}
+.hover-button a{
+    text-decoration: none;
+    color: white;
+}
+
+.watch-pro{
+    padding: 100px;
+} 
+.watch-heading{
+    display: flex;
+    justify-content: space-between;
+}
+.watches{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+} 
+.watch-heading{
+    font-size: 30px;
+}
+.offers{
+      background-color: whitesmoke;
+}
+.sale-heading{
+    margin-top: 50px;
+}
+.sale-heading p{
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 5px;
+
+}
+.sale-heading h3{
+    font-size: 75px;
+    font-weight: 400;
+     line-height: 5px;
+}
+.sale{
+    padding: 50px;
+  
+    display: flex;
+    justify-content: space-evenly;
+}
+.sale-button{
+    color: white;
+    border: none;
+    padding: 15px 35px;
+    background-color: black;
+    border-radius: 5px;
+}
+.sale-button a{
+    text-decoration: none;
+    color: white;
+}
+
+.blogs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.post img{
+    max-width: 90%;
+}
+.post p{
+    font-size: 15px;
+    line-height: 4px;
+}
+.post h4{
+    font-size: 30px;
+    line-height: 5px;
+}
+
+.subscribe{
+    padding:  50px;
+    margin: 50px 200px;
+  
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    background-color: black;
+    color: white;
+}
+.subscribe h3{
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 5px;
+}
+.subscribe p{
+    font-size: 20px;
+      line-height: 5px;
+}
+
+.email{
+    padding: 10px 150px 10px 20px;
+    border: none;
+}
+.submit{
+    padding: 10px 30px;
+    border: none;
+    margin-left:-5px ;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 50px 200px;
+    margin-bottom: 100px;
+}
+.footer div{
+    width: 25%;
+}
+.footer div i{
+    font-size: 15px;
+    margin: 10px 0px;
+
+}
+.footer div ul li{
+    list-style: none;
+    font-size: 15px;
+    margin: 15px 0px;
+    text-decoration: none;
+}
+.footer div ul li a{
+    text-decoration: none;
+}
+
+/******contact page csss******/
+
+.lets-contact{
+    background-color: whitesmoke;
+    padding: 100px 0px;
+    text-align: center;
+}
+.lets-contact p{
+    font-size: 35px;
+    font-weight: 400;
+}
+.lets-contact h1{
+    font-size: 75px;
+}
+.form{
+    padding: 100px 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+ .form-icon div{
+    display: flex;
+    flex-direction: row;
+ }
+ .form-icon h2{
+    font-size: 45px;
+    font-weight: 500;
+ }
+
+.form-icon div i{
+    color: darkgreen;
+    font-weight: 700;
+    font-size: 30px;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    margin: 20px ;
+}
+
+.form-icon div h5{
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.form-icon div p{
+    margin-top: 70px;
+    font-size: 14px;
+    margin-left: -50px;
+}
+.form-info{
+    padding: 100px;
+}
+.form-info form input{
+    padding: 10px 150px 10px 20px;
+    margin: 10px;
+}
+.submit{
+    text-align: center;
+}
+
+.follow{
+    background-color: whitesmoke;
+    padding: 100px;
+    text-align: center;
+
+}
+.follow h3{
+    font-size: 45px;
+    font-weight: 600;
+}
+.follow i{
+    font-size: 25px;
+    color: darkgreen;
+    margin: 0px 25px;
+}
+
+
+
+/**********about page***********/
+
+.provide{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 100px;
+    background-color: gray;
+    color: white;
+}
+
+.provide div{
+    width: 50%;
+    padding: 30px 50px;
+}
+ .provide div h2{
+    font-size: 45px;
+ }
+ .value{
+    padding: 100px 0px;
+ }
+.value h2{
+    padding: 0px 500px;
+    font-size: 70px;
+    text-align: center;
+}
+
+.values{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   
+}
+.values div{
+     padding: 50px 100px;
+}
+.values h4{
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 5px;
+}
+
+.values p{
+    font-size: 22px;
+  
+}
+.mission{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 100px;
+    background-color: gray;
+    color: white;
+}
+
+.mission div{
+    width: 50%;
+    padding: 30px 50px;
+}
+.mission div img{
+    max-width: 90%;
+}
+ .mission div h2{
+    font-size: 45px;
+ }
+/********* categoies**********/
+
+.cat-pro{
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.cat-heading{
+    font-size: 60px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.cat-pro div h5{
+    font-size: 18px;
+    line-height: 5px;
+}
+
+.cat-pro div p{
+    font-size: 12px;
+    line-height: 2px;
+}
+.cat-button{
+    padding: 10px 40px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+
+}
+
+.cat-ul{
+    text-align: center;
+   
+}
+
+.cat-ul li {
+    margin: 10px 20px;
+    list-style: none;
+    font-size: 20px;
+
+}
+
+.cat-ul li a{
+    font-size: 25px;
+    color: darkgreen;
+    text-decoration: none;
+}
+
+
+
+
+
+/*********************************/
+@media (max-width: 1200px)
+{
+    header
+    {
+        margin: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+@media (max-width: 768px)
+{
+    .mean-toggle
+    {
+        display: block;
+        width: auto;
+        height: auto;
+        margin: 10px;
+      
+        cursor: pointer;
+        text-align: center;
+        font-size: 30px;
+        color: #069370;
+    }
+    .mean-toggle:before
+    {
+        content: '\f0c9';
+        font-family: fontAwesome;
+        line-height: 40px;
+    }
+    .mean-toggle.active:before
+    {
+        content: '\f00d';
+    }
+    nav
+    {
+        display:none;
+    }
+    nav.active
+    {
+        display:block;
+        width :100%;
+    }
+    nav.active ul
+    {
+        display: block;
+    }
+    nav.active ul li 
+    {
+        margin: 0;
+        text-align: center;
+    }
+
+    .icons{
+    margin-top: 20px;
+   
+}
+.icons i{
+    color: darkgreen;
+    font-size: 14px;
+    padding: 0px 6px;
+}
+    .hero{
+      flex-direction: column;
+    }
+     .banner-content{
+      margin: 10px;
+     }
+    .banner-content h1{
+    margin-top: 50px;
+    font-size: 45px;
+   }
+  .img-banner img{
+   max-width: 100%;
+  }
+  
+   
+.shop-button{
+    padding: 15px 35px;
+    font-size: 15px;
+    color: white;
+    border:none;
+    background-color: black;
+}
+.company-pro{
+    padding: 20px;
+}
+.Services{
+    display: flex;
+    flex-direction: column;
+
+}
+.Services div{
+    margin: 25px;
+
+}
+.Services div i{
+    font-size: 16px;
+}
+.Services div h3{
+    font-size: 20px;
+}
+.Services div p{
+    font-size: 15px;
+}
+
+.mob-pro{
+    padding: 50px;
+} 
+
+.moblies{
+    flex-direction: column;
+  
+} 
+.mob-heading{
+    font-size:20px;
+}
+.moblies div{
+   margin: 15px 0px;
+
+}
+.hover-button{
+     margin-top: -5px;
+    
+}
+.watch-pro{
+    padding: 30px;
+} 
+.watch-heading a{
+   font-size: 15px;
+}
+.watches{
+    flex-direction:column;
+    
+
+} 
+.watches div{
+   margin: 20px 0px;
+}
+.watch-heading{
+    font-size: 20px;
+}
+.offers{
+      background-color: whitesmoke;
+}
+.sale-heading{
+    margin-top: 30px;
+}
+.sale-heading p{
+    font-size: 25px;
+
+}
+.sale-heading h3{
+    font-size: 60px;
+
+}
+.sale{
+    padding: 50px 20px;
+    flex-direction: column;
+   
+} 
+.sale-image{
+   margin: 25px;
+}
+.sale-image img{
+   max-width: 100%;
+}
+.sale-button{
+    color: white;
+    border: none;
+    padding: 15px 35px;
+    background-color: black;
+    border-radius: 5px;
+}
+.sale-button a{
+    text-decoration: none;
+    color: white;
+}
+.blogs{
+   flex-direction: column;
+}
+.post{
+   margin: 20px 0px;
+}
+.post img{
+    max-width: 100%;
+}
+.post p{
+    font-size: 12px;
+    line-height: 1px;
+}
+.post h4{
+    font-size: 20px;
+    line-height: 2px;
+}
+
+.subscribe{
+    padding:  50px;
+    margin: 50px 20px;
+   flex-direction: column;
+}
+.subscribe h3{
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 5px;
+}
+.subscribe p{
+    font-size: 18px;
+      line-height: 20px;
+}
+
+.email{
+    padding: 10px 10px 10px 20px;
+    border: none;
+}
+.submit{
+    padding: 10px 30px;
+    border: none;
+    margin-left:-5px ;
+}
+
+.footer{
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    margin-bottom: 100px;
+}
+.footer div{
+   margin: 25px 0px;
+   width: 100%;
+}
+.footer div i{
+    font-size: 15px;
+    margin: 10px 0px;
+
+}
+.footer div ul li{
+    list-style: none;
+    font-size: 15px;
+    margin: 15px 0px;
+    text-decoration: none;
+}
+.footer div ul li a{
+    text-decoration: none;
+}
+
+
+.lets-contact{
+ 
+    padding: 50px 0px;
+   
+}
+.lets-contact p{
+    font-size: 20px;
+   
+}
+.lets-contact h1{
+    font-size: 50px;
+}
+.form{
+    padding:50px;
+   
+    flex-direction:column;
+  
+}
+ .form-icon div{
+    display: flex;
+    flex-direction: row;
+ }
+ .form-icon h2{
+    font-size: 30px;
+    
+ }
+
+.form-icon div i{
+  
+    font-size:22pxpx;
+   
+}
+
+.form-info{
+    padding: 40px;
+}
+.form-info form input{
+    padding: 10px 80px 10px 20px;
+   
+}
+.provide{
+    
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 25px 0px;
+    background-color: gray;
+    color: white;
+}
+
+.provide div{
+    width: 80%;
+    padding: 30px;
+}
+.provide div img {
+    max-width: 100%;
+}
+ .provide div h2{
+    font-size: 35px;
+ }
+.value{
+    padding: 30px 0px;
+ }
+.value h2{
+    padding: 0px 20px;
+    font-size: 50px;
+
+}
+
+.values{
+ 
+    flex-direction: column;
+  
+   
+}
+.values div{
+     padding: 25;
+}
+.values h4{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 5px;
+}
+
+.values p{
+    font-size: 16px;
+  
+}
+.mission{
+    
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 25px 0px;
+    background-color: gray;
+    color: white;
+}
+
+.mission div{
+    width: 80%;
+    padding: 30px;
+}
+.mission div img {
+    max-width: 100%;
+}
+ .mission div h2{
+    font-size: 35px;
+ }
+
+ .cat-pro{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+ 
+}
+.cat-heading{
+    font-size: 40px;
+   
+}
+.cat-pro div h5{
+    font-size: 18px;
+    line-height: 0px;
+}
+
+.cat-pro div p{
+    font-size: 12px;
+    line-height: 0px;
+}
+.cat-button{
+    padding: 10px 25px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+
+}
+
+
+}
